@@ -1,0 +1,356 @@
+{
+  "scriptVersion": 1,
+  "id": "gongyin-gu",
+  "title": "共饮·古卷",
+  "description": "古代原作《共饮》忠实复述：你捡到一部手机，机主栏写着梁生熙。翻开来，却是千年前的南梁旧事——傀儡之身、桃花血酒、月圆夜互骗，与那场无人得偿的三月花之约。多结局。",
+  "revision": 2,
+  "phone": {
+    "owner": "梁生熙",
+    "date": "0004-09-15",
+    "time": "子时三刻",
+    "battery": 61,
+    "network": "禁苑",
+    "wallpaper": "apple-wwdc26",
+    "theme": "dark",
+    "passcode": "0303"
+  },
+  "installedApps": [
+    "appstore", "wechat", "douyin", "phone", "messages", "contacts",
+    "photos", "camera", "safari", "notes", "calendar", "mail", "clock",
+    "reminders", "files", "music", "maps", "weather", "wallet", "health",
+    "find", "calculator", "settings", "qq", "weibo", "redbook", "bilibili",
+    "alipay", "taobao", "netease", "delivery", "forum", "whatsapp",
+    "instagram", "tiktok", "twitter", "telegram", "discord", "youtube",
+    "line", "snapchat", "facebook", "messenger", "reddit", "spotify",
+    "netflix", "pinterest", "threads", "kakao"
+  ],
+  "contacts": [
+    {
+      "id": "zhouyi",
+      "name": "周弋",
+      "phone": "138 0000 0731",
+      "avatar": "",
+      "bio": "周国太子，年二十，闲散得招人烦。把梁生熙当猴子看了四个月的人——也是最终以血酿酒、夺了他人身的人。"
+    },
+    {
+      "id": "zhoukai",
+      "name": "周开（周帝）",
+      "phone": "139 0000 0001",
+      "avatar": "",
+      "bio": "大周皇帝，梁生熙生父。以巫蛊之术造出非人非鬼的傀儡之子，图长生，亦图南梁。"
+    },
+    {
+      "id": "taifu",
+      "name": "太傅",
+      "phone": "137 0000 9981",
+      "avatar": "",
+      "bio": "给周弋布置《亡国皇帝的心理特征解析》的太傅，论文须写三千字小楷。"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-zhouyi",
+      "app": "wechat",
+      "title": "周弋",
+      "participants": ["owner", "zhouyi"],
+      "messages": [
+        {
+          "id": "zy1",
+          "title": "周弋",
+          "body": "生熙，话本上都说你善巫蛊、能召阴兵，什么时候带我见识见识？",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy2",
+          "title": "梁生熙",
+          "body": "殿下，我既已降，便不会再生事端。旧部什么的，不存在的。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zy3",
+          "title": "周弋",
+          "body": "你怎么都不上进的？破釜沉舟百二秦关终属楚，卧薪尝胆三千越甲可吞吴，你没听过？",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy4",
+          "title": "周弋",
+          "body": "替我写《亡国皇帝的心理特征解析》三千字小楷，下月初交。太傅批作业很严的。",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy5",
+          "title": "周弋",
+          "body": "生熙，我有什么愿望么，你能帮我的？我想去看南梁的三月花，以后去的话，找你做地陪。",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy6",
+          "title": "梁生熙",
+          "body": "好啊，你去的话，我带你看。（心里却补一句：若那时自己还活着。）",
+          "senderId": "owner"
+        },
+        {
+          "id": "zy7",
+          "title": "周弋",
+          "body": "若是父皇想要为难于你，你暂且受着些，我会看情况替你挡一挡。",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy8",
+          "title": "梁生熙",
+          "body": "今晚我不会死的。至少是今晚。",
+          "senderId": "owner"
+        }
+      ]
+    },
+    {
+      "id": "chat-zhoukai",
+      "app": "messages",
+      "title": "周开（周帝）",
+      "participants": ["owner", "zhoukai"],
+      "messages": [
+        {
+          "id": "zk1",
+          "title": "周开",
+          "body": "违命侯在大周可还习惯？想念家乡么？",
+          "senderId": "zhoukai"
+        },
+        {
+          "id": "zk2",
+          "title": "梁生熙",
+          "body": "托圣上洪福，乐不思蜀。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zk3",
+          "title": "周开",
+          "body": "你母后在南梁，可曾提起故人？",
+          "senderId": "zhoukai"
+        },
+        {
+          "id": "zk4",
+          "title": "梁生熙",
+          "body": "母后早逝，孩儿不敢妄言。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zk5",
+          "title": "周开",
+          "body": "吾儿，今夜后殿，朕有物赐你。",
+          "senderId": "zhoukai"
+        }
+      ]
+    }
+  ],
+  "content": {
+    "notes": [
+      {
+        "id": "memo-wish",
+        "title": "手札·愿望",
+        "body": "殿下问我有何愿望。我说：我只是不想死。\n他又说想去南梁看三月花，要我作地陪。我应了。\n心里却补一句：若那时自己还活着的话。\n我的愿望确是如此——我想活下去，无论用什么方法。"
+      },
+      {
+        "id": "memo-truth",
+        "title": "手札·身世",
+        "body": "我不是梁生熙。\n母后乃大周先皇后，有孕时被送往南梁，生我，立为南梁太子。我本名周开——与周帝名讳相同。\n我是巫蛊之术最后的造物：非人非鬼，天生傀儡之身。血缘亲厚者可操控我之意识；操控者身死，其意识便重生于我身。\n周帝欲长生、欲吞南梁，故遣散后宫，只留我这一个『儿子』。\n提线在他手中。直到周弋以血酿桃花酒，连饮三月，将提线引到了他自己身上——我才趁隙剪断了它。"
+      },
+      {
+        "id": "memo-plan",
+        "title": "手札·今夜",
+        "body": "父皇今夜要我服延寿丹，五更时他身死、我登基为帝。\n可惜他不知，周弋的血酒已解了提线；我更不知，周弋竟也在等这一夜。\n小楼昨夜又东风——我从不写诗，这一回，倒真该写几句了。"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-peach",
+        "title": "三月花",
+        "body": "祈水岸，三月三。人与桃花相映红。殿下说想去看看，我说带他去。"
+      },
+      {
+        "id": "photo-wine",
+        "title": "桃花酒",
+        "body": "月圆夜，八角桌，两坛桃花酒，一套白玉杯。殿下说这酒是他特意寻来破巫蛊的——后来我才知，那酒是用他的血酿的。"
+      },
+      {
+        "id": "photo-mask",
+        "title": "人皮面具",
+        "body": "薄薄一层，揭下便换了面目。那夜我把它覆在殿下脸上，说：从此你便是南梁的亡国之君，放心，你会活很久。"
+      },
+      {
+        "id": "photo-hidden",
+        "title": "加密·夺舍",
+        "body": "周弋以血酿酒，三月饮尽，提线已从周帝移至他身。\n他等我松懈，刺向心口，换入我这具身体。\n新帝立于高堂，万民山呼：吾皇万岁。\n而我的意识，散在祈水岸的桃花里了。",
+        "password": "0303",
+        "hidden": false
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-0303",
+        "title": "三月三·祈水看桃花",
+        "body": "与殿下之约。怕是走不到那一天。",
+        "time": "三月三"
+      },
+      {
+        "id": "cal-moon",
+        "title": "月圆夜·赏月宴",
+        "body": "周帝设宴，封我为违命侯。殿下说会替我挡。",
+        "time": "第四月·月圆"
+      },
+      {
+        "id": "cal-last",
+        "title": "今夜·后殿",
+        "body": "父皇赐丹。五更。",
+        "time": "今夜"
+      }
+    ]
+  },
+  "variables": {},
+  "events": [
+    {
+      "id": "ev-start",
+      "type": "start",
+      "label": "开机",
+      "next": []
+    },
+    {
+      "id": "ev-wish-read",
+      "type": "event",
+      "event": "read",
+      "target": "memo-wish",
+      "once": true,
+      "label": "读毕手札·愿望",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "zhouyi",
+          "value": "周弋：生熙，月圆夜的桃花酒还温着，你答应带我看的南梁三月花，可别忘了。"
+        }
+      ],
+      "next": ["c-main"]
+    },
+    {
+      "id": "c-main",
+      "type": "choice",
+      "label": "（手机屏幕幽幽亮着。你翻开亡国君的手机，决定——）",
+      "next": ["opt-read", "opt-be", "opt-silent"]
+    },
+    {
+      "id": "opt-read",
+      "type": "event",
+      "label": "翻到下一页手札，看看梁生熙究竟是谁",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "手札上写：我不是梁生熙。我本名周开，是周帝以巫蛊之术造出的傀儡之身……"
+        }
+      ],
+      "next": ["c-truth"]
+    },
+    {
+      "id": "opt-be",
+      "type": "ending",
+      "label": "合上手机，宁愿相信他和殿下真的去了祈水，看了一回桃花",
+      "actions": [
+        { "type": "ending", "key": "", "value": "be" }
+      ],
+      "next": []
+    },
+    {
+      "id": "opt-silent",
+      "type": "ending",
+      "label": "把手机轻轻放回原地，不打扰这已逝的人",
+      "actions": [
+        { "type": "ending", "key": "", "value": "silent" }
+      ],
+      "next": []
+    },
+    {
+      "id": "c-truth",
+      "type": "choice",
+      "label": "（提线、血酒、夺舍……你窥见了这场互骗的真相。）",
+      "next": ["opt-album", "opt-stop"]
+    },
+    {
+      "id": "opt-album",
+      "type": "event",
+      "label": "输入密码，打开那张加密的相册",
+      "actions": [],
+      "next": ["ev-hidden-read"]
+    },
+    {
+      "id": "ev-hidden-read",
+      "type": "event",
+      "event": "read",
+      "target": "photo-hidden",
+      "once": true,
+      "label": "解开加密相册",
+      "actions": [],
+      "next": ["end-hidden"]
+    },
+    {
+      "id": "end-hidden",
+      "type": "ending",
+      "label": "隐藏·吾皇万岁",
+      "actions": [
+        { "type": "ending", "key": "", "value": "hidden" }
+      ],
+      "next": []
+    },
+    {
+      "id": "opt-stop",
+      "type": "ending",
+      "label": "到此为止——提线已断，他终于做了回自己",
+      "actions": [
+        { "type": "ending", "key": "", "value": "truth" }
+      ],
+      "next": []
+    }
+  ],
+  "tests": [
+    {
+      "name": "结局-三月花（温柔误解）",
+      "steps": [
+        { "event": "read", "target": "memo-wish" },
+        { "choose": "opt-be" },
+        { "event": "ending" }
+      ],
+      "ending": "be",
+      "expectUnlocked": []
+    },
+    {
+      "name": "结局-放回原处（留白）",
+      "steps": [
+        { "event": "read", "target": "memo-wish" },
+        { "choose": "opt-silent" },
+        { "event": "ending" }
+      ],
+      "ending": "silent",
+      "expectUnlocked": []
+    },
+    {
+      "name": "结局-提线真相",
+      "steps": [
+        { "event": "read", "target": "memo-wish" },
+        { "choose": "opt-read" },
+        { "event": "read", "target": "memo-truth" },
+        { "choose": "opt-stop" },
+        { "event": "ending" }
+      ],
+      "ending": "truth",
+      "expectUnlocked": []
+    },
+    {
+      "name": "隐藏结局-夺舍·吾皇万岁",
+      "steps": [
+        { "password": "0303", "target": "photo-hidden" },
+        { "event": "read", "target": "photo-hidden" },
+        { "event": "ending" }
+      ],
+      "ending": "hidden",
+      "expectUnlocked": []
+    }
+  ]
+}
