@@ -1,699 +1,383 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "gongyin-sanyue",
+  "title": "共饮·三月",
+  "description": "现代 if 线捡手机互动叙事：你捡到了梁生熙的手机，翻看他和周弋的聊天，并接到了周弋发来的消息。偏甜，刀只做点睛。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "梁生熙",
+    "date": "2026-03-02",
+    "time": "23:48",
+    "battery": 73,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "theme": "dark",
+    "passcode": "0303"
   },
   "installedApps": [
-    "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    "phone",
-    "messages",
-    "contacts",
-    "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
-    "notes",
-    "calendar",
-    "mail",
-    "clock",
-    "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
-    "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "appstore", "wechat", "douyin", "phone", "messages", "contacts",
+    "photos", "camera", "safari", "notes", "calendar", "mail", "clock",
+    "reminders", "files", "music", "maps", "weather", "wallet", "health",
+    "find", "calculator", "settings", "qq", "weibo", "redbook", "bilibili",
+    "alipay", "taobao", "netease", "delivery", "forum", "whatsapp",
+    "instagram", "tiktok", "twitter", "telegram", "discord", "youtube",
+    "line", "snapchat", "facebook", "messenger", "reddit", "spotify",
+    "netflix", "pinterest", "threads", "kakao"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
+      "id": "zhouyi",
+      "name": "周弋",
+      "phone": "138 0000 0731",
+      "avatar": "",
+      "bio": "梁生熙的恋人。周氏集团人人嫌的‘闲散太子爷’，其实比谁都清醒。"
+    },
+    {
+      "id": "zhoukai",
+      "name": "周开",
+      "phone": "139 0000 0001",
+      "avatar": "",
+      "bio": "梁生熙的养父，周氏集团董事长。把梁生熙当‘提线木偶’养。"
+    },
+    {
+      "id": "linzhu",
+      "name": "林助",
+      "phone": "137 0000 2233",
+      "avatar": "",
+      "bio": "梁生熙的助理，只听周开的话。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "chat-zhouyi",
       "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
+      "title": "周弋",
+      "participants": ["owner", "zhouyi"],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "zy1",
+          "title": "周弋",
+          "body": "生熙，今晚周开那边有应酬，你别回老宅了，来我这儿。",
+          "senderId": "zhouyi"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
+          "id": "zy2",
+          "title": "梁生熙",
+          "body": "不行，他今晚会‘查岗’，我药还没吃。",
           "senderId": "owner"
+        },
+        {
+          "id": "zy3",
+          "title": "周弋",
+          "body": "那破药他天天盯着你吃。迟早我替你倒了。",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy4",
+          "title": "梁生熙",
+          "body": "你别乱来。提线不是你想剪就能剪的。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zy5",
+          "title": "周弋",
+          "body": "梁生熙，我就问你一句——三月三，你愿不愿意跟我去祈水看桃花？",
+          "senderId": "zhouyi"
+        },
+        {
+          "id": "zy6",
+          "title": "梁生熙",
+          "body": "……愿意。但我怕我走不到那天。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zy7",
+          "title": "周弋",
+          "body": "把‘走不到’那句话咽回去。我背也要把你背去。",
+          "senderId": "zhouyi"
+        }
+      ]
+    },
+    {
+      "id": "chat-zhoukai",
+      "app": "messages",
+      "title": "周开",
+      "participants": ["owner", "zhoukai"],
+      "messages": [
+        {
+          "id": "zk1",
+          "title": "周开",
+          "body": "生熙，下周三董事会你出席，别出错。",
+          "senderId": "zhoukai"
+        },
+        {
+          "id": "zk2",
+          "title": "梁生熙",
+          "body": "知道。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zk3",
+          "title": "周开",
+          "body": "药按时吃。我不想再提醒你第二次。",
+          "senderId": "zhoukai"
+        },
+        {
+          "id": "zk4",
+          "title": "梁生熙",
+          "body": "……是。",
+          "senderId": "owner"
+        },
+        {
+          "id": "zk5",
+          "title": "周开",
+          "body": "你是我的人。记住。",
+          "senderId": "zhoukai"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
+    "notes": [
       {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
+        "id": "memo-letter",
+        "title": "给周弋（没发出去）",
+        "body": "周弋：\n如果三月三我能活着跟你去看桃花，我就把憋了一辈子的话告诉你——我不想只做谁手里的提线木偶。我想做你的人。\n你总说我清醒得过头，其实我哪有那么清醒。我只是怕。怕提线一断，我就什么都不是了。可你每次都说‘我替你活’。\n如果你看到这条，别笑我。\n——生熙"
+      },
       {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "memo-daily",
+        "title": "明日待办",
+        "body": "09:00 周开晨会\n21:00 药\n别回周弋消息（会被看见）"
       }
     ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "photo-together",
+        "title": "合照",
+        "body": "去年今日，两人挤在‘三月’酒吧卡座，周弋举手机自拍，梁生熙一脸嫌弃却没躲开。"
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
+        "id": "photo-peach",
+        "title": "桃花",
+        "body": "祈水古镇的桃花。周弋说：‘明年带你看真的。’"
+      },
       {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "notes": [
+        "id": "photo-wine",
+        "title": "桃花酿",
+        "body": "‘三月’招牌——桃花酿。梁生熙不喝酒，周弋每次都替他挡。"
+      },
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "photo-hidden",
+        "title": "他的睡颜（加密）",
+        "body": "周弋偷拍：梁生熙在沙发上睡着，眉心终于舒展。配文：若提线断了，我替你活。",
+        "password": "520",
+        "hidden": false
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "cal-0303",
+        "title": "三月三·祈水看桃花",
+        "body": "和周弋。别让周开知道。",
+        "time": "2026-03-03"
       }
     ]
   },
   "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "ev-start",
+      "type": "start",
+      "label": "开机",
+      "next": []
+    },
+    {
+      "id": "ev-memo-read",
+      "type": "event",
+      "event": "read",
+      "target": "memo-letter",
+      "once": true,
+      "label": "读完备忘录",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "zhouyi",
+          "value": "周弋：生熙？你手机怎么关机了，我打了一晚上。看到回我。"
+        }
+      ],
+      "next": ["c-talk"]
+    },
+    {
+      "id": "c-talk",
+      "type": "choice",
+      "label": "（手机震了一下。是周弋。你要怎么回？）",
+      "next": ["t1-a", "t1-b", "t1-c"]
+    },
+    {
+      "id": "t1-a",
+      "type": "event",
+      "label": "「我是捡到你男友手机的人，他手机落了吧」",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "zhouyi",
+          "value": "周弋：？你是谁。他人呢，为什么是你拿他手机？"
+        }
+      ],
+      "next": ["c-talk2"]
+    },
+    {
+      "id": "t1-b",
+      "type": "event",
+      "label": "「路人。手机我捡到了，怎么还你」",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "zhouyi",
+          "value": "周弋：好。你在哪，我马上来拿——顺便，替我谢谢你还肯理我。"
+        }
+      ],
+      "next": ["c-talk2"]
+    },
+    {
+      "id": "t1-c",
+      "type": "event",
+      "label": "（先不回，把手机轻轻放下）",
+      "actions": [
+        { "type": "variable", "key": "silent", "value": true }
+      ],
+      "next": ["end-silent"]
+    },
+    {
+      "id": "c-talk2",
+      "type": "choice",
+      "label": "周弋又发来一条，催你：",
+      "next": ["t2-a", "t2-b", "t2-c"]
+    },
+    {
+      "id": "t2-a",
+      "type": "event",
+      "label": "「他没事，手机忘在‘三月’酒吧了」",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "zhouyi",
+          "value": "周弋：…三月。你帮他收好。还有——替我告诉他：三月三的约，我记着呢，谁拦都没用。"
+        }
+      ],
+      "next": ["end-sweet"]
+    },
+    {
+      "id": "t2-b",
+      "type": "event",
+      "label": "「他是不是被你爸周开，管得很死？」",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "zhouyi",
+          "value": "周弋：…你也看出来了。那根‘提线’，我迟早替他剪断。你别告诉他，给他个惊喜。"
+        }
+      ],
+      "next": ["end-truth"]
+    },
+    {
+      "id": "t2-c",
+      "type": "event",
+      "label": "（还是不回）",
+      "actions": [
+        { "type": "variable", "key": "silent", "value": true }
+      ],
+      "next": ["end-silent"]
+    },
+    {
+      "id": "end-sweet",
+      "type": "ending",
+      "label": "甜·三月三",
+      "actions": [
+        { "type": "ending", "key": "", "value": "sweet" }
+      ],
+      "next": []
+    },
+    {
+      "id": "end-truth",
+      "type": "ending",
+      "label": "改写·提线",
+      "actions": [
+        { "type": "ending", "key": "", "value": "truth" }
+      ],
+      "next": []
+    },
+    {
+      "id": "end-silent",
+      "type": "ending",
+      "label": "刀·放回原处",
+      "actions": [
+        { "type": "ending", "key": "", "value": "silent" }
+      ],
+      "next": []
+    },
+    {
+      "id": "ev-hidden-read",
+      "type": "event",
+      "event": "read",
+      "target": "photo-hidden",
+      "once": true,
+      "label": "解开加密相册",
+      "actions": [],
+      "next": ["end-hidden"]
+    },
+    {
+      "id": "end-hidden",
+      "type": "ending",
+      "label": "隐藏·若提线断了",
+      "actions": [
+        { "type": "ending", "key": "", "value": "hidden" }
+      ],
+      "next": []
+    }
+  ],
+  "tests": [
+    {
+      "name": "甜结局-归还并兑现三月三之约",
+      "steps": [
+        { "event": "read", "target": "memo-letter" },
+        { "choose": "t1-b" },
+        { "choose": "t2-a" },
+        { "event": "ending" }
+      ],
+      "ending": "sweet",
+      "expectUnlocked": []
+    },
+    {
+      "name": "改写结局-揭开周开的控制",
+      "steps": [
+        { "event": "read", "target": "memo-letter" },
+        { "choose": "t1-b" },
+        { "choose": "t2-b" },
+        { "event": "ending" }
+      ],
+      "ending": "truth",
+      "expectUnlocked": []
+    },
+    {
+      "name": "刀点结局-沉默放回",
+      "steps": [
+        { "event": "read", "target": "memo-letter" },
+        { "choose": "t1-c" },
+        { "event": "ending" }
+      ],
+      "ending": "silent",
+      "expectUnlocked": []
+    },
+    {
+      "name": "隐藏结局-加密相册",
+      "steps": [
+        { "password": "520", "target": "photo-hidden" },
+        { "event": "read", "target": "photo-hidden" },
+        { "event": "ending" }
+      ],
+      "ending": "hidden",
+      "expectUnlocked": []
+    }
+  ]
 }
